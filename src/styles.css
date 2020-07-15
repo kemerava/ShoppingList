@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+html, body{
+height: 100%;
+margin: 0
+}
+
+* {
+  box-sizing: border-box;
+
+}
+
+.App {
+  /* The image used */
+  background-image: url("https://images.pexels.com/photos/961402/pexels-photo-961402.jpeg?cs=srgb&dl=green-flower-bouquet-on-white-background-961402.jpg&fm=jpg");
+
+  /* Control the height of the image */
+  min-height: 600px;
+  text-align: right;
+  font-family: 'Indie Flower', cursive;
+  font-size: x-large;
+  padding-top: 20px;
+  padding-right: 70px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+
